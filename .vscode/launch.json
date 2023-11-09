@@ -1,0 +1,29 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "chamada_v1",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=APPID=91944787",
+                "--dart-define=APPSIGN=234b3dbc2dda60e237446072d9b809292812c8f916fb60b29decd118dd893307"
+            ]
+        },
+        {
+            "name": "chamada_v1 (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "chamada_v1 (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
